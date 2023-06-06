@@ -1,44 +1,42 @@
 export default [
   {
-    category: "Dev",
+    category: "",
     color: "cyan",
     items: {
       Github: "https://github.com",
-      AWS: "https://aws.amazon.com",
-      "Dev.to": "https://dev.to",
-      Firebase: "https://console.firebase.google.com/u/0",
+      GDrive: "https://drive.google.com/",
+      Gmail: "https://mail.google.com/mail/u/0/",
+      Translate: "https://translate.google.com/",
+      
     },
   },
   {
-    category: "School",
+    category: "",
     color: "red",
     items: {
-      Outlook: "https://outlook.office365.com/mail/inbox",
-      Canvas: "https://sit.instructure.com",
-      MyStevens: "https://login.stevens.edu/app/UserHome",
+      Nyaa: "https://nyaa.si/",
+      Snahp: "https://fora.snahp.eu/",
+      TorrentGalaxy: "https://torrentgalaxy.to/",
+      
     },
   },
   {
-    category: "Work",
+    category: "",
     color: "green",
     items: {
-      Linkedin: "https://linkedin.com",
-      Twitter: "https://twitter.com",
-      Leetcode: "https://leetcode.com",
-      Handshake: "https://app.joinhandshake.com/stu/postings",
-      Indeed: "https://www.indeed.com/",
+      MonkeyType: "https://monkeytype.com/",
+      
     },
   },
   {
-    category: "Misc",
+    category: "",
     color: "purple",
     items: {
-      Trakt: "https://trakt.tv/users/peterrauscher/lists",
+      Tiwtch: "https://www.twitch.tv/",
       YouTube: "https://www.youtube.com/",
-      Fmovies: "https://fmovies.to/home",
-      Zoro: "https://zoro.to",
-      TempMail: "https://tempmail.email/",
-      // IPTorrents: "https://iptorrents.com/t",
+      Reddit: "https://photon-reddit.com/",
+      Twitter: "https://twitter.com",
+      
     },
   },
 ];
