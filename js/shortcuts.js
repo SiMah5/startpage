@@ -7,7 +7,6 @@ export default [
       GDrive: "https://drive.google.com/",
       Gmail: "https://mail.google.com/mail/u/0/",
       Translate: "https://translate.google.com/",
-      
     },
   },
   {
@@ -17,7 +16,6 @@ export default [
       Nyaa: "https://nyaa.si/",
       Snahp: "https://fora.snahp.eu/",
       TorrentGalaxy: "https://torrentgalaxy.to/",
-      
     },
   },
   {
@@ -25,7 +23,6 @@ export default [
     color: "green",
     items: {
       MonkeyType: "https://monkeytype.com/",
-      
     },
   },
   {
@@ -36,7 +33,6 @@ export default [
       YouTube: "https://www.youtube.com/",
       Reddit: "https://photon-reddit.com/",
       Twitter: "https://twitter.com",
-      
     },
   },
 ];
