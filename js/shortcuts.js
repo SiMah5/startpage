@@ -20,7 +20,7 @@ export default [
   },
   {
     category: " ",
-    color: "light-gray",
+    color: "green",
     items: {
       MonkeyType: "https://monkeytype.com/",
     },
@@ -29,7 +29,7 @@ export default [
     category: " ",
     color: "purple",
     items: {
-      Tiwtch: "https://www.twitch.tv/",
+      Twitch: "https://www.twitch.tv/",
       YouTube: "https://www.youtube.com/",
       Reddit: "https://photon-reddit.com/",
       Twitter: "https://twitter.com",

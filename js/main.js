@@ -38,7 +38,7 @@ input.addEventListener("keydown", function (e) {
 
 window.addEventListener("load", () => {
   executors.ls();
-  let filenames = ["purple-mountains.jpg"];
+  let filenames = ["3178693h81p91.jpg"];
   let root = document.getElementsByTagName("html")[0];
   root.style.backgroundImage = `url("./backgrounds/${
     filenames[Math.floor(Math.random() * filenames.length)]
