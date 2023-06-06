@@ -1,6 +1,6 @@
 export default [
   {
-    category: "dev",
+    category: " ",
     color: "cyan",
     items: {
       Github: "https://github.com",
@@ -10,7 +10,7 @@ export default [
     },
   },
   {
-    category: "dev",
+    category: " ",
     color: "red",
     items: {
       Nyaa: "https://nyaa.si/",
@@ -19,14 +19,14 @@ export default [
     },
   },
   {
-    category: "dev",
+    category: " ",
     color: "green",
     items: {
       MonkeyType: "https://monkeytype.com/",
     },
   },
   {
-    category: "dev",
+    category: " ",
     color: "purple",
     items: {
       Tiwtch: "https://www.twitch.tv/",

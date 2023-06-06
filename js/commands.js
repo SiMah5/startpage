@@ -3,7 +3,7 @@ import executor from "./executors.js";
 export default [
   {
     name: ["search", "s"],
-    description: "Searches DuckDuckGo for the given query",
+    description: "Searches Google for the given query",
     execute: executor.search,
   },
   {
@@ -25,10 +25,5 @@ export default [
     name: ["weather"],
     description: "Displays the weather forecast",
     execute: executor.weather,
-  },
-  {
-    name: ["motd"],
-    description: "Displays a random famous quote",
-    execute: executor.motd,
   },
 ];

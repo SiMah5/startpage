@@ -34,7 +34,7 @@ You have two main options:
 
 ## Usage
 
-- To search DuckDuckGo, type `search` or `s` followed by your search query!
+- To search Google, type `search` or `s` followed by your search query!
   - Example: `search Where to find cool startpages`
 - List your shortcuts with `ls`.
 - To visit a shortcut, just enter the name of the shortcut in, and you'll be redirected.

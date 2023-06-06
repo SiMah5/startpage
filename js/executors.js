@@ -2,31 +2,6 @@ import { dateDiffInMinutes, error, getWeather, render } from "./helpers.js";
 import shortcuts from "./shortcuts.js";
 
 export default {
-  motd: () => {
-    let cachedQuote = localStorage.getItem("cachedQuote");
-    if (cachedQuote) {
-      cachedQuote = JSON.parse(cachedQuote);
-      if (
-        dateDiffInMinutes(parseInt(cachedQuote.fetchedAt), Date.now()) < 720
-      ) {
-        render(`"${cachedQuote.content}" - ${cachedQuote.author}`);
-        return;
-      }
-    }
-    fetch("https://api.quotable.io/random?tags=technology")
-      .then((res) => res.json())
-      .then((data) => {
-        render(`"${data.content}" - ${data.author}`);
-        localStorage.setItem(
-          "cachedQuote",
-          JSON.stringify({
-            content: data.content,
-            author: data.author,
-            fetchedAt: Date.now().toString(),
-          })
-        );
-      });
-  },
   weather: (options) => {
     let usage = `
           <p>Usage: weather [set key &lt;key&gt;] [set loc &lt;city,state,country&gt;]</p>
@@ -52,12 +27,12 @@ export default {
   search: (options) => {
     const query = options.join(" ") || null;
     if (query) {
-      window.location.href = `https://duckduckgo.com/?q=${encodeURIComponent(
+      window.location.href = `https://www.google.com/search${encodeURIComponent(
         query
       )}`;
     } else {
-      render("No query, redirecting to DDG!");
-      window.location.href = "https://duckduckgo.com";
+      render("No query, redirecting to Google!");
+      window.location.href = "https://google.com";
     }
   },
   ls: () => {
