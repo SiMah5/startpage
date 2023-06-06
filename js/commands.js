@@ -3,7 +3,7 @@ import executor from "./executors.js";
 export default [
   {
     name: ["search", "s"],
-    description: "Searches Google for the given query",
+    description: "Searches Brave for the given query",
     execute: executor.search,
   },
   {
