@@ -20,7 +20,7 @@ export default [
   },
   {
     category: " ",
-    color: "green",
+    color: "light-gray",
     items: {
       MonkeyType: "https://monkeytype.com/",
     },
